@@ -39,7 +39,7 @@ a:hover {
 }
 .site-title, .site-title:visited {
     border-bottom: 0px;
-    font-size: 0.9em;
+    font-size: 0.9em; 
     font-weight: 400;
     letter-spacing: 0.02em;
     color: black; 
@@ -47,6 +47,7 @@ a:hover {
 .page-link, .page-link:visited {
     border-bottom: 0px;
     letter-spacing: 0.02em;
+    font-size: 0.9em; 
     color: black;
 }
 ul {
