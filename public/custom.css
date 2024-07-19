@@ -1,0 +1,77 @@
+.robotoMono {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-top: 1em;
+}
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-top: 1em;
+}
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-top: 1em;
+}
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-color: #ff8800;
+}
+a:hover {
+    text-decoration: none;
+}
+.site-title, .site-title:visited {
+    border-bottom: 0px;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: black;
+}
+.page-link, .page-link:visited {
+    border-bottom: 0px;
+    letter-spacing: 0.02em;
+    color: black;
+}
+ul {
+    list-style-type: circle;
+    margin-left: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 1em;
+}
+li {
+    padding-bottom: 1em;
+}
+.site-header {
+    border-top: 0px;
+    border-bottom: 1px solid #aaa;
+}
+.post-link {
+    border-bottom: 0px;
+    font-size: 1em;
+    font-weight: 400;
+}
+/* table {
+    border: 0px;
+}
+table td {
+    padding: 0px 5px 0px 0px;
+    border: 0px;
+} */
