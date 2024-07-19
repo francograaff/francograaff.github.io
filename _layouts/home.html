@@ -2,60 +2,32 @@
 layout: base
 ---
 
-<div class="home">
+<div class="home robotoMono f6 f5-ns">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
+  {%- if site.posts.size > 0 -%}
+  <p class="pt4 pb2">Here are some of my projects. In time, more will be added.</p>
+    {% assign rows = site.posts.size | divided_by: 3.0 | ceil %}
+    {% for i in (1..rows) %}
+      <div>
+        <div class="cf">
+        {% assign offset = forloop.index0 | times: 3 %}
+        {% for post in site.posts limit:3 offset:offset %}
+          <div class="fl w-100 w-third-ns pr3-ns">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.thumbImagePath | relative_url }}" class="mb2" alt="{{ post.title }}">
+              <p class="post-link pt2 mb2">{{ post.title | upcase | escape }}</p>
+              <p class="f7-ns pb3">{{ post.shortDescription }}</p>
+            </a>
+          </div>
+        {% endfor %}
+        </div>
       </div>
-    {%- endif %}
-
+    {% endfor %}
   {%- endif -%}
 
 </div>
