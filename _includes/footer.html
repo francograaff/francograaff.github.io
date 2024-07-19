@@ -1,36 +1,9 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
-
-  </div>
-</footer>
+<div class="bt b--light-silver pv3 w-100 center">
+  <p class="f7 tracked tc robotoMono">Contact at <a 
+    class="u-email" href="mailto:{{ site.email }}">email</a>, <a 
+    class="u-email" href="{{ site.github }}">Github</a> & <a 
+    class="u-email" href="{{ site.twitter }}">Twitter</a> | made with <a 
+    href="https://jekyllrb.com/">Jekyll</a> & <a
+    href="http://tachyons.io/">Tachyons</a> | <a
+    href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+</div>
