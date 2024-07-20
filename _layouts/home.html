@@ -17,7 +17,7 @@ layout: base
         <div class="cf">
         {% assign offset = forloop.index0 | times: 3 %}
         {% for post in site.posts limit:3 offset:offset %}
-          <div class="fl w-100 w-third-ns pr3-ns">
+          <div class="fl w-100 w-third-ns pr1-ns">
             <a href="{{ post.url | relative_url }}">
               <img src="{{ post.thumbImagePath | relative_url }}" class="mb2" alt="{{ post.title }}">
               <p class="post-link pt2 mb2">{{ post.title | upcase | escape }}</p>

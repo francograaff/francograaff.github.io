@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
+title: "Data Visualization"
 categories: junk
 author:
 - Bart Simpson
 - Nelson Mandela Muntz
 meta: "Springfield"
 thumbImagePath: assets/postcard.jpg
+shortDescription: "Testing"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.

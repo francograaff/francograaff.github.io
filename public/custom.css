@@ -55,14 +55,14 @@ ul {
     margin-left: 1em;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
-    font-size: 1em;
+    font-size: .9em;
 }
 li {
     padding-bottom: 1em;
 }
 .site-header {
     border-top: 0px solid #aaa;
-    border-bottom: 1px solid red;;
+    border-bottom: 1px solid #aaa;;
 }
 .post-link {
     border-bottom: 0px;

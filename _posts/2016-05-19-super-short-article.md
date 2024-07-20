@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some articles are just so short that we have to make the footer stick"
+title: "Columbia Daily Spectator"
 categories: misc
 thumbImagePath: assets/postcard.jpg
 ---
