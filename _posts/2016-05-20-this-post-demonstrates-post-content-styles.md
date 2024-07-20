@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Data Visualization"
+title: "Mapping Citi Bike"
 categories: junk
 author:
 - Bart Simpson
 - Nelson Mandela Muntz
 meta: "Springfield"
 thumbImagePath: assets/postcard.jpg
-shortDescription: "Testing"
+shortDescription: "Interactive data visualization exploring the last decade of Citi Bikes in New York City."
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
