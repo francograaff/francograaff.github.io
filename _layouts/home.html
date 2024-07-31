@@ -1,8 +1,8 @@
 ---
-layout: base
+layout: base2
 ---
 
-<div class="home robotoMono f6 f5-ns">
+<div class="home robotoMono f6 f4-ns">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -10,24 +10,17 @@ layout: base
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-  <p class="pt4 pb2">Here are some of my projects. In time, more will be added.</p>
-    {% assign rows = site.posts.size | divided_by: 3.0 | ceil %}
-    {% for i in (1..rows) %}
-      <div>
-        <div class="cf">
-        {% assign offset = forloop.index0 | times: 3 %}
-        {% for post in site.posts limit:3 offset:offset %}
-          <div class="fl w-100 w-third-ns pr3-ns">
-            <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.thumbImagePath | relative_url }}" class="mb2" alt="{{ post.title }}">
-              <p class="post-link pt2 mb2">{{ post.title | upcase | escape }}</p>
-              <p class="f7-ns pb3">{{ post.shortDescription }}</p>
-            </a>
-          </div>
-        {% endfor %}
+  <!-- <p class="pt4 pb2"></p> -->
+    <div>
+      {%- for post in site.posts %}
+        <div class="w-100 mb4">
+          <a href="{{ post.externalUrl | default: post.url | relative_url }}">
+            <img src="{{ post.thumbImagePath | relative_url }}" class="mb2" alt="{{ post.title }}">
+            <p class="post-link pt2 mb2">{{ post.title | upcase | escape }}</p>
+            <p class="f7 f5-ns pb3">{{ post.shortDescription }}</p>
+          </a>
         </div>
-      </div>
-    {% endfor %}
+      {%- endfor %}
+    </div>
   {%- endif -%}
-
 </div>
