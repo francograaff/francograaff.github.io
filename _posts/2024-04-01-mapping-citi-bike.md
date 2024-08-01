@@ -8,7 +8,7 @@ author:
 meta: "Springfield"
 thumbImagePath: assets/bike.png
 shortDescription: "Interactive data visualization exploring the last decade of Citi Bikes in New York City."
-externalUrl: "https://joricbarber.github.io/mapping-citibike/"
+externalUrl: "https://francograaff.github.io/mapping-citibike/"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
