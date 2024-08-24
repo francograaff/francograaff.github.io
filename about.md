@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm a recent graduate of Columbia University, where I studied computer science with interests in journalism, data visualization, and architecture.
+I'm a recent graduate of Columbia University, where I studied computer science with interests in design, information, and the built environment.
 
-![A postcard](/assets/landscape.jpeg)
+![A landscape](/assets/landscape.jpeg)
