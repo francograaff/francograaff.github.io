@@ -7,7 +7,7 @@ mainImagePath: assets/newsintro.png
 ---
 #### Summary
 
-In my role in the Columbia Art Market Society, I sent out a weekly newsletter sharing the latest updates on our events, along with art world news items and a selection of exhibitions in the New York City for students to explore.
+In my role in the Columbia Art Market Society, I sent out a weekly newsletter sharing the latest updates on our events, along with art world news items and a selection of exhibitions in New York City for students to explore.
 
 Seeking to improve the reader's experience, I redesigned the newsletter, practicing my design and prototyping skills on a project with real-world constraints. 
 
