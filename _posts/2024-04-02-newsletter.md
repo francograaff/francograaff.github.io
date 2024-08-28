@@ -2,7 +2,7 @@
 layout: post
 title: "CAMS Newsletter"
 thumbImagePath: assets/actualblue.png
-shortDescription: "Redesigning the Columbia Art Market Society newsletter"
+shortDescription: "A redesign of the Columbia Art Market Society newsletter."
 mainImagePath: assets/newsintro.png
 ---
 #### Summary
