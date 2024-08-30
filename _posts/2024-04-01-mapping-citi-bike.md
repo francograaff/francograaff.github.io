@@ -7,7 +7,7 @@ author:
 - Nelson Mandela Muntz
 meta: "Springfield"
 thumbImagePath: assets/bike.png
-shortDescription: "An interactive data visualization exploring the last decade of Citi Bikes in New York City."
+shortDescription: "Interactive data visualization exploring the last decade of Citi Bikes in New York City."
 externalUrl: "https://francograaff.github.io/mapping-citibike/"
 ---
 
