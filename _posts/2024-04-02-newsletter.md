@@ -33,13 +33,13 @@ Removing images and resizing banners and rulers ensures the reader is aware of w
 
 The final design employs color and layout to contain and distinguish the newsletter's different componenets.
 
-![Prototypes](/assets/header.png)
+![Prototypes](/assets/header4.png)
 
 Reducing text length and removing images reduces reading- and scroll- fatigue.
 
-![Prototypes](/assets/news.png)
+![Prototypes](/assets/news2.png)
 
-![Prototypes](/assets/footer.png)
+![Prototypes](/assets/footer2.png)
 
 #### Next Steps
 
