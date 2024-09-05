@@ -11,11 +11,14 @@ layout: base2
         allowfullscreen></iframe></div>
     <script src="https://player.vimeo.com/api/player.js"></script>
   {% endif %} -->
-  <p class="roboto f7-ns f3 mb2-ns mb4 mt3-ns mt3">
-    {{ page.caption }}
+  <p class="robotoMonoBold f3-ns f3 mb2-ns mb4 mt3-ns mt3">
+    {{ page.title }}
   </p>
-  <p class="roboto f3-ns f3 mb2-ns mb4 mt3-ns mt3">
-    {{ page.title | upcase}}
+  <p class="robotoMono f5-ns f3 mb2-ns mb4 mt3-ns mt3">
+    {{ page.shortDescription }}
+  </p>
+  <p class="robotoMono f5-ns f3 mb2-ns mb4 mt3-ns mt3">
+    {{ page.teamCredits | upcase }}
   </p>
    <!-- {% if page.interactiveSite %}
     {% for site in page.interactiveSite %}
