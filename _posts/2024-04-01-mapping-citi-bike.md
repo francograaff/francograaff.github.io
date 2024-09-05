@@ -6,8 +6,8 @@ author:
 - Bart Simpson
 - Nelson Mandela Muntz
 meta: "Springfield"
-thumbImagePath: assets/bike.png
-shortDescription: "Interactive data visualization exploring the last decade of Citi Bikes in New York City."
+thumbImagePath: assets/bike-thumb.png
+shortDescription: "Interactive data visualization exploring the last decade of Citi Bikes in New York City"
 externalUrl: "https://francograaff.github.io/mapping-citibike/"
 ---
 

@@ -29,27 +29,27 @@ h4 {
 }
 
 a, a:visited {
-    color: black;
+    color: #222222;
     text-decoration: none;
-    border-bottom: 1px solid;
     border-color: #cacaca;
 }
 a:hover {
     text-decoration: none;
-    color: #555;
+    font-style: italic;
+
 }
 .site-title, .site-title:visited {
     border-bottom: 0px;
     font-size: 0.9em; 
     font-weight: 400;
     letter-spacing: 0.02em;
-    color: black; 
+    color: #222222; 
 }
 .page-link, .page-link:visited {
     border-bottom: 0px;
     letter-spacing: 0.02em;
     font-size: 0.9em; 
-    color: black;
+    color: #222222;
 }
 ul {
     list-style-type: circle;
@@ -58,22 +58,24 @@ ul {
     font-weight: 300;
     font-size: .9em;
 }
+
 li {
     padding-bottom: 1em;
 }
 .site-header {
     border-top: 0px solid white;
-    border-bottom: 1px solid #cacaca;
+    border-bottom: 1px solid #deddd5;
 }
 
 .post-link {
     border-bottom: 0px;
     font-size: 1em;
     font-weight: 400;
+    color: #222222;
 }
 
 .page-link:hover {
-    color: #555;
+    font-style: italic;
 }
 
 /* table {

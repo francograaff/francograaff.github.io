@@ -6,7 +6,7 @@
 $color-scheme-auto: true !default;
 $color-scheme-dark: false !default;
 
-$grey-color:       #CACACA !default;
+$grey-color:       #deddd5 !default;
 // $grey-color-light: lighten($grey-color, 40%) !default;
 
 // Light mode
@@ -19,7 +19,7 @@ $lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
 $lm-site-title-color:      $lm-brand-color-dark !default;
 
 $lm-text-color:            #111111 !default;
-$lm-background-color:      #FFF !default;
+$lm-background-color:      #f8f9f7 !default;
 $lm-code-background-color: #eeeeff !default;
 
 $lm-link-base-color:       #2a7ae2 !default;
