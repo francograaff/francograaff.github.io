@@ -16,8 +16,8 @@ layout: base2
         <div class="w-100 mb4">
           <a href="{{ post.externalUrl | default: post.url | relative_url }}">
             <img src="{{ post.thumbImagePath | relative_url }}" class="mb2" alt="{{ post.title }}">
-            <p class="post-link pt2 mb2">{{ post.title | upcase | escape }}</p>
-            <p class="f7 f5-ns pb3">{{ post.shortDescription }}</p>
+            <!-- <p class="post-link pt2 mb2">{{ post.title | upcase | escape }}</p>
+            <p class="f7 f5-ns pb3">{{ post.shortDescription }}</p> -->
           </a>
         </div>
       {%- endfor %}
