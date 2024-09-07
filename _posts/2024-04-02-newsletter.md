@@ -9,7 +9,7 @@ mainImagePath: assets/newsletter.gif
 
 In my role in the Columbia Art Market Society, I sent out a weekly newsletter sharing the latest updates on our events alongside art world news items and a selection of exhibitions in  New York City for students to explore.
 
-Seeking to improve the reader's experience, I redesigned the newsletter, practicing my design and prototyping skills on a project with real-world constraints. 
+Looking to improve the reader's experience, and practice my design and prototyping skills, I redesigned the newsletter.
 
 #### Goals
 
