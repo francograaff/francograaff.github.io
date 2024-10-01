@@ -1,6 +1,22 @@
 ---
 layout: base2
 ---
-<div class="robotoMono f6 f5-ns">
+
+<div class="home robotoMono f6 f4-ns">
+  {%- if page.title -%}
+  {%- endif -%}
+
   {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <div>
+      {%- for post in site.posts %}
+        <div class="w-100 mb4">
+          <a href="{{ post.externalUrl | default: post.url | relative_url }}">
+            <img src="{{ post.thumbImagePath | relative_url }}" class="mb2" alt="{{ post.title }}">
+          </a>
+        </div>
+      {%- endfor %}
+    </div>
+  {%- endif -%}
 </div>

@@ -11,6 +11,9 @@
   position: relative;
 }
 
+.iframe{ border: none;
+  overflow: hidden; } 
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
@@ -205,6 +208,13 @@
 /**
  * Page content
  */
+ .full-width-frame {
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1 0 auto;
