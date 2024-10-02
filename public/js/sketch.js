@@ -7,7 +7,7 @@ let prevMinute = -1;
 
 function setup() {
     // Get the width of the element with class mw6
-    let containerWidth = select('.mw6').width;
+    let containerWidth = select('.mw6').width - 2 * select('.ph3').style('padding-left').replace('px', '');
     createCanvas(containerWidth, 400); // Set canvas width to mw6 max width
     colorMode(HSB);
     noStroke();
